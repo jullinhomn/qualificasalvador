@@ -1,3 +1,7 @@
+// Desenvolvido por @jullinhomn
+
+
+//Função para reiniciar a página
 function proximo() {
     let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
@@ -9,7 +13,7 @@ function proximo() {
             location.reload();
         }
 }
-
+// Função para salvar o Curso número 1
 function salvarDados1() {
     let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
@@ -29,7 +33,7 @@ function salvarDados1() {
             resultado.innerHTML += `<strong>Dados do canditado:</strong> <br> Nome: ${nome}<br>E-mail: ${email}<br>CPF: ${cpf}<br>Celular: ${celular} <br> Curso: <strong>Aperfeiçoamento em Panificação</strong>`;
         }
     }
-
+    // Função para salvar o Curso número 2
     function salvarDados2() {
     let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
@@ -49,6 +53,6 @@ function salvarDados1() {
             resultado.innerHTML += `<strong>Dados do canditado:</strong> <br> Nome: ${nome}<br>E-mail: ${email}<br>CPF: ${cpf}<br>Celular: ${celular} <br> Curso: <strong>Operador de Telemarketing</strong>`;
     }
 }
-
+// Para dar foco no " Nome "
 var inputfoco = document.getElementById('nome');
 inputfoco.focus();
