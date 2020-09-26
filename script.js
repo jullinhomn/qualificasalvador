@@ -50,3 +50,5 @@ function salvarDados1() {
     }
 }
 
+var inputfoco = document.getElementById('nome');
+inputfoco.focus();
