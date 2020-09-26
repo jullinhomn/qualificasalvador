@@ -1,0 +1,133 @@
+body{
+    background: rgb(59, 186, 245);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 40px;
+    padding: 50px;
+    width: 536px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+    text-align: justify;
+    font-style: Arial;
+   
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+.button {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+    
+}
+.button:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.formulario-nome {
+    box-shadow:inset 400px 5px 5px 5px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 0%, #f0f1f3 0%);
+	background-color:#79bbff;
+	border-radius:3px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 5px;
+    text-decoration:none;
+    text-align: center;
+	width:300px
+}
+
+.formulario-email {
+    box-shadow:inset 400px 5px 5px 5px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 0%, #f0f1f3 0%);
+	background-color:#79bbff;
+	border-radius:3px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 5px;
+    text-decoration:none;
+    text-align: center;
+	width:300px
+}
+
+.formulario-cpf {
+    box-shadow:inset 400px 5px 5px 5px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 0%, #f0f1f3 0%);
+	background-color:#79bbff;
+	border-radius:3px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 5px;
+    text-decoration:none;
+    text-align: center;
+	width:auto;
+}
+
+.formulario-contato {
+    box-shadow:inset 400px 5px 5px 5px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 0%, #f0f1f3 0%);
+	background-color:#79bbff;
+	border-radius:3px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 5px;
+    text-decoration:none;
+    text-align: center;
+	width:auto;
+}
+
+.resultado {
+    box-shadow:inset 300px 5px 5px 5px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #f0f1f3 5%);
+	background-color:#79bbff;
+	border-radius:3px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 5px;
+	text-decoration:none;
+    text-align: justify;
+    
+}
