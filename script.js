@@ -1,3 +1,15 @@
+function proximo() {
+    let nome = document.getElementById('nome').value;
+    let email = document.getElementById('email').value;
+    let cpf = document.getElementById('cpf').value; // documentos
+    let celular = document.getElementById('contato').value;
+    if(nome.length != 0 || email.length != 0 || cpf.length != 0 || celular.length != 0){
+    var conf = confirm('Tem certeza que deseja ir para o próxmimo canditado ?')
+        } if (conf == true) {
+            location.reload();
+        }
+}
+
 function salvarDados1() {
     let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
