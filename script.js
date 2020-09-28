@@ -1,6 +1,23 @@
 // Desenvolvido por @jullinhomn
 
 
+
+// Login e senha do sistema
+/*const loginInformado = prompt('Informe o Login cadastrado.');
+const senhaformado = prompt('Informe a senha.');
+const login = 'jullinhomn@gmail.com'
+const senha = 's1mmnt11@'
+
+if (loginInformado == login && senhaformado == senha) {
+    alert('Login efetuado com sucesso! :)')
+
+} else {
+    alert('Login não autorizado, favor entrar em contato com o NTI no Ramal 2030.')
+    location.reload();
+}
+*/
+
+
 //Função para reiniciar a página
 function proximo() {
     let nome = document.getElementById('nome').value;
@@ -19,6 +36,15 @@ function salvarDados1() {
     let email = document.getElementById('email').value;
     let cpf = document.getElementById('cpf').value; // documentos
     let celular = document.getElementById('contato').value;
+    let turno = document.getElementsByName('turno');
+    let turnoEscolhido = '';
+    // Turno do Curso
+    if (turno[0].checked) {
+        turnoEscolhido = 'Matutino'
+    } else if (turno[1].checked) {
+        turnoEscolhido = 'Vespertino'
+    }
+
     // Restrição de campos obrigatórios 
     if (nome.length <= 10) {
         alert('Favor preencher o campo "Nome" completo.');
@@ -30,7 +56,7 @@ function salvarDados1() {
         alert('Favor preencher o campo "Contato" corretamente.')
     } else {
         resultado.innerHTML = '';
-        resultado.innerHTML += `<strong>Dados do canditado:</strong> <br> Nome: ${nome}<br>E-mail: ${email}<br>CPF: ${cpf}<br>Celular: ${celular} <br> Curso: <strong>Aperfeiçoamento em Panificação</strong>`;
+        resultado.innerHTML += `<strong>Dados do canditado:</strong> <br> Nome: ${nome}<br>E-mail: ${email}<br>CPF: ${cpf}<br>Celular: ${celular} <br> Pretenção do turno: <strong>${turnoEscolhido}</strong> <br>Curso: <strong>Aperfeiçoamento em Panificação</strong>`;
     }
 }
 // Função para salvar o Curso número 2
@@ -39,6 +65,14 @@ function salvarDados2() {
     let email = document.getElementById('email').value;
     let cpf = document.getElementById('cpf').value; // documentos
     let celular = document.getElementById('contato').value;
+    let turno = document.getElementsByName('turno');
+    // Turno do Curso
+    if (turno[0].checked) {
+        turnoEscolhido = 'Matutino'
+    } else if (turno[1].checked) {
+        turnoEscolhido = 'Vespertino'
+    }
+
     // Restrição de campos obrigatórios 
     if (nome.length <= 10) {
         alert('Favor preencher o campo "Nome" completo.');
@@ -56,6 +90,9 @@ function salvarDados2() {
 // Para dar foco no " Nome "
 var inputfoco = document.getElementById('nome');
 inputfoco.focus();
+
+
+
 
 
 
