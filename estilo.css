@@ -12,7 +12,7 @@ section {
     background: white;
     border-radius: 40px;
     padding: 50px;
-    width: 375px;
+    width: 340px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
     text-align: justify;
@@ -173,6 +173,6 @@ footer {
 
 .info-candidato {
 	font-family:Arial;
-	font-size:30px;
+	font-size:27px;
     text-align: center;
 }
